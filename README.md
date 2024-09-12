@@ -14,13 +14,17 @@ Este projeto configura o Apache Airflow utilizando Docker Compose. Ele inclui os
 ## 1. Iniciar o ambiente Docker
 
 Para iniciar o Airflow e seus serviços, execute o comando abaixo no diretório do projeto:
+
 `docker-compose up -d`
+
 Esse comando iniciará todos os containers em segundo plano.
 
 ## 2. Acessar a interface do Airflow
 
 Depois que os serviços estiverem rodando, você poderá acessar a interface web do Airflow em:
+
 `http://localhost:8080`
+
 As credenciais de login padrão são:
 
 - Usuário: airflow
