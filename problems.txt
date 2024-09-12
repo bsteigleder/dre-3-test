@@ -1,0 +1,49 @@
+
+Problema:
+	Esta sem chave do fernet
+Solução:
+	python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
+	AIRFLOW__CORE__FERNET_KEY: 'ciVavVYnR3ZsQbnk8wQgTSgGZXQyuJzXa9KulYKhKpU='
+
+
+Problema:
+	usuário e senha do PostgreSQL não batem
+Solução:
+	Normalizado para airflow o usuario
+
+
+Problema:
+	airflow-webserver estava na porta xxxx
+Solução: 
+	Colocar porta 8080
+
+
+Problema: 
+Valumes utilizados verificar pasta e permissões:
+volumes: 
+	- ./dag:/opt/airflow/dags
+	- ./logs:/opt/airflow/logs
+	- ./plugins:/opt/airflow/plugins
+Solução:
+	Foi colocado no comand os seguintes comandos:
+		mkdir -p ./dag ./logs ./plugins
+		chmod -R 777 ./dag ./logs ./plugins
+
+
+Problema:
+	Diretorio esta dags com o pyton mas no compose esta dag
+Solução: 
+	Alterado no docker-compose para dags
+
+
+Problema:
+	script smooth.py erro schedule=None
+Solução: 
+	schedule_interval=None
+
+Problema:
+	script smooth.py erro def smooth() sem os dois pontos
+Solucao:
+	def smooth():
+
+
