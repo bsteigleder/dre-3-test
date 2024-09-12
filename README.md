@@ -80,6 +80,6 @@ Você pode verificar se todos os serviços estão rodando corretamente com o seg
 
 `docker ps`
 
-# Health Checks
+## 4. Health Checks
 
 O Docker Compose está configurado para verificar a saúde dos serviços como o Airflow Webserver, Scheduler, Worker, Redis e PostgreSQL. Se algum serviço falhar, o Docker tentará reiniciá-lo automaticamente.
