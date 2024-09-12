@@ -4,7 +4,12 @@ Problema:
 Solução:
 	python3 -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 	AIRFLOW__CORE__FERNET_KEY: 'ciVavVYnR3ZsQbnk8wQgTSgGZXQyuJzXa9KulYKhKpU='
+    processo descrito no readme
 
+Problema:
+    AIRFLOW_UID estava configurada no compose mas não estava definido
+Solução:
+    criado .env com a variavel AIRFLOW_UID
 
 Problema:
 	usuário e senha do PostgreSQL não batem
