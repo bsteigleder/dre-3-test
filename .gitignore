@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow logs
+logs/
+*.log
+*.out
+*.err
+
+# Airflow PID files
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# Local environment
+.env
+.env.*
+
+# DAGs and Plugins (optional: if generated dynamically, ignore them)
+# dags/
+# plugins/
+
+# SQLite database (if using SQLite in local dev)
+airflow.db
+airflow.db-journal
+
+# Docker Compose related
+docker-compose.yml.*
+docker-compose.override.yml
+*.env
+*.pid
+
+# Sensitive configuration files
+secrets.env
+config/secrets.yml
+
+# Python virtual environment
+venv/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyCharm / IntelliJ specific files
+.idea/
+*.iml
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
