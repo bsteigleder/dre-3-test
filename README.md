@@ -25,6 +25,7 @@ bash
 ### 1.2. Ativar o ambiente virtual
 
 Após criar o ambiente virtual, ative-o com o seguinte comando:
+
 No Linux/macOS:
 
 `source venv/bin/activate`
