@@ -15,7 +15,6 @@ airflow-scheduler.pid
 
 # Local environment
 .env
-.env.*
 
 # DAGs and Plugins (optional: if generated dynamically, ignore them)
 # dags/
