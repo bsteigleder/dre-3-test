@@ -20,6 +20,7 @@ executar os seguintes comandos:
 
 Se o ambiente virtual não foi criado, execute o seguinte comando para criar um novo ambiente virtual chamado venv:
 bash
+
 `python3 -m venv venv`
 
 ### 1.2. Ativar o ambiente virtual
